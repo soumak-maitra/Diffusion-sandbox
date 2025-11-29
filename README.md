@@ -1,6 +1,8 @@
 # Diffusion-sandbox
 An experimental sandbox for implementing, testing, and visualizing diffusion models.
 
+
+
 ### 🔢 Digit diffusion
 
 The figure below shows the reverse diffusion process on MNIST digits:  
