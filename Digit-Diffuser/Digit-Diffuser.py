@@ -152,7 +152,7 @@ model.train()
 
 
 # ------------------------------------------------------------
-# 3. Load + Resize MNIST (to 28x28, normalized to [-1, 1])
+# 3. Load + Resize MNIST (normalized to [-1, 1])
 # ------------------------------------------------------------
 transform = T.Compose([
     T.Resize((RESOLUTION, RESOLUTION)),
@@ -318,8 +318,8 @@ for row_idx, digit in enumerate(target_digits):
             plt.ylabel(f"{digit}", rotation=0, labelpad=40, fontsize=12)
 
 plt.suptitle(
-    f"Class-Conditional DDPM (UNet + dropout, res={RESOLUTION}, base_ch={BASE_CH})",
-    fontsize=18
+    f"Digit generation >>>>>",
+    fontsize=18,y=0.99
 )
 plt.tight_layout()
 plt.show()
