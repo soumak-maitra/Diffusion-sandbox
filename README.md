@@ -21,7 +21,7 @@ evolving from pure noise (left) to a clean digit (right).
 
 This variant conditions the reverse diffusion process **only on a sparse “dot image”**:
 an input canvas with *N* bright dots (single pixels), where *N* encodes the target class.
-At inference time, you provide the dot image and the model denoises from pure noise into
+At inference time, I provide the dot image and the model denoises from pure noise into
 a clean MNIST digit consistent with that dot-conditioning.
 
 <img width="1590" height="288" alt="image" src="https://github.com/user-attachments/assets/5bff8fde-1f8c-4dea-ae9b-bfcf611aad17" />
