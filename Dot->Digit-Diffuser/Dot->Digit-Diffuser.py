@@ -443,4 +443,4 @@ fig.suptitle(
 plt.tight_layout(rect=[0, 0.02, 1, 0.94])
 plt.show()
 
-np.savefig("./DotDigit.png")
+plt.savefig("./DotDigit.png")
