@@ -34,7 +34,7 @@ IMG_SIZE    = RESOLUTION
 
 BATCH_SIZE  = 128
 LR          = 1e-4
-EPOCHS      = 50
+EPOCHS      = 100
 TIMESTEPS   = 1000
 
 BASE_CH     = 32
