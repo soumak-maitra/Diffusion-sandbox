@@ -24,4 +24,5 @@ an input canvas with *N* bright dots (single pixels), where *N* encodes the targ
 At inference time, I provide the dot image and the model denoises from pure noise into
 a clean MNIST digit consistent with that dot-conditioning.
 
-<img width="1590" height="288" alt="image" src="https://github.com/user-attachments/assets/5bff8fde-1f8c-4dea-ae9b-bfcf611aad17" />
+<img width="1599" height="126" alt="image" src="https://github.com/user-attachments/assets/ee81ab75-5e3a-414c-97d6-a8c07abec54b" />
+<img width="1599" height="126" alt="image" src="https://github.com/user-attachments/assets/d965d19e-7981-43f1-bcb7-2798fba5410d" />
