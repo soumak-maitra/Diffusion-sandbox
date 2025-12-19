@@ -52,10 +52,10 @@ alphas_bar = torch.cumprod(alphas, dim=0)
 
 betas      = betas.to(device)
 alphas     = alphas.to(device)
-alphas_bar = alphas_bar.to(device)
+alphas_bar = alphas_bar.to(device) #last element should be small << 0.01-0.001
 
 alphas_bar_prev = torch.cat([torch.tensor([1.0], device=device), alphas_bar[:-1]])
-posterior_var = betas * (1.0 - alphas_bar_prev) / (1.0 - alphas_bar)
+posterior_var = betas * (1.0 - alphas_bar_prev) / (1.0 - alphas_bar) # some correction on beta (eq 7 of ddpm paper). Check other papers too.
 
 
 # ============================================================
