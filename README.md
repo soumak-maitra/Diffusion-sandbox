@@ -3,7 +3,7 @@ An experimental sandbox for implementing, testing, and visualizing diffusion mod
 
 
 
-### 🔢 Digit diffusion
+### Digit diffusion
 
 The figures below show the reverse diffusion process on MNIST digits:  
 each row corresponds to a target digit (0–5), and columns show samples
@@ -17,7 +17,7 @@ evolving from pure noise (left) to a clean digit (right).
   <img src="assets/digit_diffusion2.png" alt="Digit generation with diffusion models2" width="700">
 </p>
 
-### 🎲 Dot → 🔢 digit diffusion 
+### Dot to digit diffusion 
 
 This variant conditions the reverse diffusion process **only on a sparse “dot image”**:
 an input canvas with *N* bright dots (single pixels), where *N* encodes the target class.
